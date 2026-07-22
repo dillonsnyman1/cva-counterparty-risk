@@ -7,7 +7,7 @@ A full-stack Monte Carlo CVA engine over a netting set of vanilla IR swaps and F
 - **Backend**: Python + FastAPI - Hull-White rate simulation, log-normal GBM FX, Vasicek closed-form swap pricing, flat hazard rate CVA integral
 - **Frontend**: React + Vite + TypeScript dashboard (exposure profile, CVA attribution by trade)
 
-> **Live demo**: [placeholder](https://placeholder) - build a netting set of IR swaps and FX forwards, adjust CDS spread and recovery rate, and explore Expected Exposure, PFE-95, and CVA attribution across trades.
+> **Live demo**: [d1m60pgtu4frd9.cloudfront.net](https://d1m60pgtu4frd9.cloudfront.net) - build a netting set of IR swaps and FX forwards, adjust CDS spread and recovery rate, and explore Expected Exposure, PFE-95, and CVA attribution across trades.
 >
 > The backend is fully stateless: all Monte Carlo simulation and CVA computation is done in-request with no database or storage of any kind.
 
